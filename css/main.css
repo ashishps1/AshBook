@@ -1,0 +1,107 @@
+body {  
+  font-family: Trebuchet MS, Verdana, Helvetica, Arial, san-serif; 
+  margin: 0; 
+  text-align: center; 
+}
+
+#register_box, #login_box, #search_box, #profile_box , #home_box{
+	//background: url('../images/bgContent.jpg') 0 -2px;
+	background-color:green;
+	border: 3px solid #1E3755;	
+	color: #ddd; 
+	height: 1000px; 
+	margin: 0 auto; 
+	padding: 150px 180px 0 180px; 
+	position: relative; 
+	text-align: left; 
+	width: 440px;
+
+}
+
+#pass_error{
+	color:red;
+
+}
+
+ul { padding: 0; }
+li { font-size: 12px; list-style: none; margin: 0 0 4px 0; }
+
+label { 
+  float: left; 
+  margin: 4px 6px 0 0; 
+  text-align: right; 
+  width: 160px; 
+}
+
+input { border: 2px solid #1E3755; padding: 0 2px; width: 216px; }
+select { border: 2px solid #1E3755; width: 224px; }
+textarea { border: 2px solid #1E3755; padding: 0 2px; width: 216px; }
+
+#register , #login , #search_button, #post_submit{ width: 100px;}
+
+#head{
+
+	top:0;
+	left:0;
+	height:40px;
+	background-color:blue;
+	border: 2px solid #1E3755;
+
+}
+
+.bright_entry{
+
+	background-color:yellow;
+
+}
+
+.error{
+	color:red;
+	font-size:20px;
+}
+
+
+table{
+	background-color: #fcba7a;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid black;
+	border-collapse: collapse;
+}
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+}
+
+.user_link{
+
+	background-color:blue;
+	color:white;
+
+}
+
+.profile{
+
+	width:400px;
+	height:350px;
+
+}
+
+.success{
+	color:green;
+	font-size:20px;
+}
+
+#post_text{
+	height:70px;
+}
+
+.post_box{
+
+	color:black;
+	background-color:white;
+	border: thin solid black;
+	height:50px;
+
+}
+
